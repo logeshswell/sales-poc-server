@@ -1,0 +1,26 @@
+# IDEs and editors
+.idea/
+.project
+.classpath
+.c9/
+*.launch
+.settings/
+*.sublime-workspace
+
+# Visual Studio Code
+.vscode/
+.history/
+
+# Node
+/node_modules
+.env
+
+# Compiled output
+/dist
+/tmp
+/out-tsc
+/bazel-out
+
+# System files
+.DS_Store
+Thumbs.db
