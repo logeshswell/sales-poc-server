@@ -2,8 +2,9 @@
   Swell + Coloro Demo
 </h1>
 
-A custom backend for Swell + Coloro Demo POC, which fetch the cart across multiple storefronts for the same user session. It touches upon the following features:
+A Backend server for Swell + Coloro Demo, which fetch the cart across multiple storefronts for the same user session. It touches upon the following features:
 - Multi-Vendor Cart Management
+- Marketplace with Access control
 
 ## Prerequisites
 
@@ -15,14 +16,9 @@ A custom backend for Swell + Coloro Demo POC, which fetch the cart across multip
 - typescript - `v4.6.4`
 - swell-node - `v4.0.9`
 - store-url - https://coloro-demo.swell.store/admin
-- [storefront-url](https://gitlab.com/schema/sales-poc/-/tree/coloro-poc) - Will be added soon.
+- storefront-url - https://gitlab.com/schema/sales-poc/-/tree/coloro-poc
 
 ## Setup instructions
-
-#### Fork Project
-
-- Fork the main repository
-- Clone the forked repository locally `git clone forked_repo_url`
 
 #### Run Project
 
