@@ -49,9 +49,18 @@ SWELL_STORE_ID=your_store_id
 SWELL_SECRET_KEY=your_secret_key
 ```
 
+- Navigate to one of the below paths and add the following lines to your hosts file.
+
+* Linux/Mac - `/etc/hosts`
+* Windows - `C:\Windows\System32\drivers\etc\hosts`
+
+```
+127.0.0.1	swell-poc.swell.test
+```
+
 - Run `nvm use && npm install` to install npm packages.
 - Run `npm run dev` to start the server.
-- The backend application will be running in http://localhost:80
+- The backend application will be running in http://swell-poc.swell.test:80
 
 ## Documentation
 
