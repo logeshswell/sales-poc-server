@@ -7,6 +7,7 @@ const cors = require('cors')
 const app = express();
 app.set('json spaces', 2);
 app.use(cors())
+app.use(express.json());
 const port = process.env.PORT || 80;
 
 /* Initialize Swell */
@@ -21,6 +22,7 @@ app.get('/', (req, res) => {
 });
 
 /* Initialize routes below */
+app.use('/cart', require('./routes/cart'));
 
 /* Error handler middleware */
 app.use((err, req, res, next) => {
